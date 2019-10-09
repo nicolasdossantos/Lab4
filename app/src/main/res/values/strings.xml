@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Palette</string>
-    <string name="test">Hello there</string>
+    <string-array name="colors">
+        <item>White</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Magenta</item>
+        <item>Gray</item>
+        <item>Cyan</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Lime</item>
+    </string-array>
 </resources>

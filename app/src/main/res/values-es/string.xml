@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">La Paleta</string>
+    <string-array name="colors">
+        <item>Blanco</item>
+        <item>Verde</item>
+        <item>Rojo</item>
+        <item>Magenta</item>
+        <item>Cinza</item>
+        <item>Ciano</item>
+        <item>Negro</item>
+        <item>Azul</item>
+        <item>Amarillo</item>
+        <item>Limon</item>
+    </string-array>
+</resources>

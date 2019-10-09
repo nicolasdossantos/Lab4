@@ -3,6 +3,7 @@ package edu.temple.palette;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -17,9 +18,12 @@ public class PaletteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Resources res = PaletteActivity.this.getResources();
 
+
+        String[] colorsLanguage = res.getStringArray(R.array.colors);
         String[] colors = {"White", "Green", "Red", "Magenta", "Gray", "Cyan", "Black", "Blue", "Yellow", "Lime"};
-        ColorAdapter colorAdapter = new ColorAdapter(PaletteActivity.this, colors);
+        ColorAdapter colorAdapter = new ColorAdapter(PaletteActivity.this, colors, colorsLanguage);
 
         spinner = findViewById(R.id.spinner);
 
@@ -41,7 +45,7 @@ public class PaletteActivity extends AppCompatActivity {
             }
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
-                Toast.makeText(PaletteActivity.this, R.string.test, Toast.LENGTH_SHORT).show();
+                Toast.makeText(PaletteActivity.this, "", Toast.LENGTH_SHORT).show();
             }
         });
 
