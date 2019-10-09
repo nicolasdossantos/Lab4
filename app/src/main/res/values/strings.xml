@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Palette</string>
+    <string name="test">Hello there</string>
 </resources>

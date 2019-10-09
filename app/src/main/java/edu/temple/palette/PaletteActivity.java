@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 
 public class PaletteActivity extends AppCompatActivity {
@@ -40,6 +41,7 @@ public class PaletteActivity extends AppCompatActivity {
             }
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
+                Toast.makeText(PaletteActivity.this, R.string.test, Toast.LENGTH_SHORT).show();
             }
         });
 
