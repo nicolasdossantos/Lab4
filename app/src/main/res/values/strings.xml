@@ -12,4 +12,16 @@
         <item>Yellow</item>
         <item>Lime</item>
     </string-array>
+    <string-array name="colorValues">
+        <item>White</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Magenta</item>
+        <item>Gray</item>
+        <item>Cyan</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Lime</item>
+    </string-array>
 </resources>

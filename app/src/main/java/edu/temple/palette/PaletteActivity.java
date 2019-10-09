@@ -22,7 +22,7 @@ public class PaletteActivity extends AppCompatActivity {
 
 
         String[] colorsLanguage = res.getStringArray(R.array.colors);
-        String[] colors = {"White", "Green", "Red", "Magenta", "Gray", "Cyan", "Black", "Blue", "Yellow", "Lime"};
+        String[] colors = res.getStringArray(R.array.colorValues);
         ColorAdapter colorAdapter = new ColorAdapter(PaletteActivity.this, colors, colorsLanguage);
 
         spinner = findViewById(R.id.spinner);
